@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* { /* o * seleciona toda tag do doc. html*/
+    margin: 0;
+    padding: 0; /* padding define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabeçalho {
+    display: flex; /*deixa avisado que iremos usar caixas flexiveis*/
+    flex-direction: row; /*direção em linha*/
+    align-items: center; /*alinha o itens pelo centro*/
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-imagem {
+    height: 72px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px; /* distanciamento entre o menu cabeçalho*/
+}
+
+.cabeçalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400; /*intensidade da cor*/
+    font-size: 18px; /*tamanho da fonte*/
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7; /*barra do topo*/
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
